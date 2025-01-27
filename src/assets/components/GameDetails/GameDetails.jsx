@@ -24,12 +24,17 @@ export default function GameDetails(props) {
 
   return (
     <>
-      <span className="player">
-        {playerName} <p>{props.symbol}</p>
-        <button onClick={() => setIsPlayerEditable((prev) => !prev)}>
-          {isPlayerEditable ? "Save" : "Edit"}
-        </button>
-      </span>
+      <ul className="player">
+        <li>
+          <p>{props.symbol}</p>
+        </li>
+        <li>{playerName}</li>
+        <li className="player-edit">
+          <button onClick={() => setIsPlayerEditable((prev) => !prev)}>
+            {isPlayerEditable ? "Save" : "Edit"}
+          </button>
+        </li>
+      </ul>
     </>
   );
 }

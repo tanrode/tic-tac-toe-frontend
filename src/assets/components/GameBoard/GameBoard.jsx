@@ -129,7 +129,6 @@ export default function GameBoard({ player1, player2, socket }) {
           </Typography>
         </Box>
       </Modal>
-      ;
       <table>
         <tbody>
           {gameBoard.map((row, rowIndex) => (
