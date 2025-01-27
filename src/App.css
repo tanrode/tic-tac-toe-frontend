@@ -1,0 +1,27 @@
+#heading {
+  font-family: "Caprasimo", cursive;
+  font-size: 3rem;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  color: #ffffff;
+  text-align: center;
+}
+
+#app-logo {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  display: block;
+}
+
+/* game-details */
+#game-details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+}

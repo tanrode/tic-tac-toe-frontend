@@ -1,0 +1,20 @@
+table {
+  margin: 0 auto;
+}
+
+td {
+  border: 1px solid #e1dec7;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 2rem;
+  color: #e1dec7;
+}
+
+.X {
+  color: #51bb33;
+}
+
+.O {
+  color: #a43c3c;
+}
